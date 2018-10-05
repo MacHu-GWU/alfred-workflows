@@ -1,0 +1,1910 @@
+{
+    "columns": [
+        "class",
+        "skill_tab",
+        "name_en",
+        "name_cn",
+        "name_abbr",
+        "code",
+        "description"
+    ],
+    "data": [
+        {
+            "class": "Amazon",
+            "code": 6,
+            "description": null,
+            "name_abbr": "MA",
+            "name_cn": "\u9b54\u6cd5\u7bad",
+            "name_en": "Magic Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 7,
+            "description": null,
+            "name_abbr": "FA",
+            "name_cn": "\u706b\u7130\u7bad",
+            "name_en": "Fire Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 11,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51b0\u7bad",
+            "name_en": "Cold Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 12,
+            "description": null,
+            "name_abbr": "MS",
+            "name_cn": "\u591a\u91cd\u7bad",
+            "name_en": "Multiple Shot",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 16,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u7206\u88c2\u7bad",
+            "name_en": "Exploding Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 21,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6025\u51bb\u7bad",
+            "name_en": "Ice Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 22,
+            "description": null,
+            "name_abbr": "GA",
+            "name_cn": "\u5bfc\u5f15\u7bad",
+            "name_en": "Guided Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 26,
+            "description": "\u8ba9\u5c04\u51fa\u7684\u7bad\u77e2\u81ea\u52a8\u7784\u51c6\u653b\u51fb\u591a\u4e2a\u9644\u8fd1\u7684\u654c\u4eba",
+            "name_abbr": "\u626b\u5c04",
+            "name_cn": "\u70ae\u8f70",
+            "name_en": "Strafe",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 27,
+            "description": null,
+            "name_abbr": "Immo",
+            "name_cn": "\u727a\u7272\u4e4b\u7bad",
+            "name_en": "Immolating Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 31,
+            "description": "\u51b0\u51bb\u52a0\u5f3a\u7684\u7bad\u77e2\u6216\u5f13\u5f39, \u53ef\u4ee5\u51bb\u7ed3\u591a\u4e2a\u654c\u4eba",
+            "name_abbr": "FA",
+            "name_cn": "\u51bb\u7ed3\u4e4b\u7bad",
+            "name_en": "Freezing Arrow",
+            "skill_tab": "Bow"
+        },
+        {
+            "class": "Amazon",
+            "code": 8,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5185\u89c6",
+            "name_en": "Inner Sight",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 9,
+            "description": null,
+            "name_abbr": "CS",
+            "name_cn": "\u53cc\u500d\u6253\u51fb",
+            "name_en": "Critical Shot",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 13,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u95ea\u907f",
+            "name_en": "Dodge",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 17,
+            "description": null,
+            "name_abbr": "SM",
+            "name_cn": "\u6162\u901f\u7bad",
+            "name_en": "Slow Missiles",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 18,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u8eb2\u907f",
+            "name_en": "Avoid",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 23,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u523a\u5165",
+            "name_en": "Penetrate",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 28,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u8bf1\u9975",
+            "name_en": "Decoy",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 29,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u56de\u907f",
+            "name_en": "Evade",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 32,
+            "description": null,
+            "name_abbr": "Valk",
+            "name_cn": "\u5973\u6b66\u795e",
+            "name_en": "Valkyrie",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 33,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u7a7f\u900f",
+            "name_en": "Pierce",
+            "skill_tab": "Passive"
+        },
+        {
+            "class": "Amazon",
+            "code": 10,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6233\u523a",
+            "name_en": "Jab",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 14,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5a01\u529b\u4e00\u51fb",
+            "name_en": "Power Strike",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 15,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6bd2\u67aa",
+            "name_en": "Poison Javelin",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 19,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u523a\u7206",
+            "name_en": "Impale",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 20,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u95ea\u7535\u7403",
+            "name_en": "Lightning Bolt",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 24,
+            "description": null,
+            "name_abbr": "CS",
+            "name_cn": "\u5145\u80fd\u4e00\u51fb",
+            "name_en": "Charged Strike",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 25,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u761f\u75ab\u6807\u67aa",
+            "name_en": "Plague Javelin",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 30,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51fb\u9000",
+            "name_en": "Fend",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 34,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u95ea\u7535\u653b\u51fb",
+            "name_en": "Lightning Strike",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Amazon",
+            "code": 35,
+            "description": null,
+            "name_abbr": "LF",
+            "name_cn": "\u95ea\u7535\u4e4b\u6012",
+            "name_en": "Lightning Fury",
+            "skill_tab": "Javelin"
+        },
+        {
+            "class": "Sorceress",
+            "code": 36,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u706b\u5f39",
+            "name_en": "Firebolt",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 37,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u70ed\u60c5",
+            "name_en": "Warmth",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 41,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5730\u72f1\u4e4b\u706b",
+            "name_en": "Inferno",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 46,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u70bd\u70c8\u4e4b\u5f84",
+            "name_en": "Blaze",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 47,
+            "description": null,
+            "name_abbr": "FB",
+            "name_cn": "\u706b\u7403",
+            "name_en": "Fireball",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 51,
+            "description": null,
+            "name_abbr": "FW",
+            "name_cn": "\u706b\u5899",
+            "name_en": "Firewall",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 52,
+            "description": "\u7ed9\u8fd1\u6218\u6b66\u5668\u9644\u4e0a\u706b\u7130\u4f24\u5bb3, \u5728\u8fdc\u7a0b\u6b66\u5668\u4e0a\u52a0\u4e0a1/3\u706b\u7130\u4f24\u5bb3",
+            "name_abbr": null,
+            "name_cn": "\u706b\u7130\u5f3a\u5316",
+            "name_en": "Enchant",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 56,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9668\u77f3",
+            "name_en": "Meteor",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 62,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u4e5d\u5934\u6d77\u86c7",
+            "name_en": "Hydra",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 61,
+            "description": null,
+            "name_abbr": "FM",
+            "name_cn": "\u652f\u914d\u4e4b\u7130",
+            "name_en": "Fire Mastery",
+            "skill_tab": "Fire"
+        },
+        {
+            "class": "Sorceress",
+            "code": 38,
+            "description": null,
+            "name_abbr": "CB",
+            "name_cn": "\u5145\u80fd\u5f39",
+            "name_en": "Charged Bolt",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 42,
+            "description": "\u521b\u9020\u4e00\u4e2a\u9759\u7535\u529b\u573a\u964d\u4f4e\u6240\u6709\u9644\u8fd1\u654c\u4eba\u7684\u751f\u547d",
+            "name_abbr": "SF",
+            "name_cn": "\u9759\u6001\u529b\u573a",
+            "name_en": "Static Field",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 43,
+            "description": "\u4f7f\u7528\u7cbe\u795e\u529b\u91cf\u62fe\u53d6\u7269\u54c1, \u89e6\u53d1\u673a\u5173, \u6216\u6253\u51fb\u654c\u4eba",
+            "name_abbr": "TK",
+            "name_cn": "\u5fc3\u7075\u4f20\u52a8",
+            "name_en": "Telekinesis",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 48,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u65b0\u661f",
+            "name_en": "Nova",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 49,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u95ea\u7535",
+            "name_en": "Lightning",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 53,
+            "description": null,
+            "name_abbr": "CL",
+            "name_cn": "\u8fde\u9501\u95ea\u7535",
+            "name_en": "Chain Lightning",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 54,
+            "description": "\u77ac\u95f4\u79fb\u52a8\u5230\u89c6\u529b\u6240\u53ca\u7684\u76ee\u7684\u5730",
+            "name_abbr": "TP",
+            "name_cn": "\u4f20\u9001",
+            "name_en": "Teleport",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 57,
+            "description": null,
+            "name_abbr": "TS",
+            "name_cn": "\u96f7\u4e91\u98ce\u66b4",
+            "name_en": "Thunder Storm",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 58,
+            "description": "\u521b\u9020\u4e00\u4e2a\u80fd\u91cf\u62a4\u76fe, \u7528\u9b54\u6cd5\u6765\u4ee3\u66ff\u751f\u547d\u53d7\u5230\u7684\u4f24\u5bb3",
+            "name_abbr": "ES",
+            "name_cn": "\u80fd\u91cf\u62a4\u76fe",
+            "name_en": "Energy Shield",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 63,
+            "description": null,
+            "name_abbr": "LM",
+            "name_cn": "\u652f\u914d\u95ea\u7535",
+            "name_en": "Lightning Mastery",
+            "skill_tab": "Lighting"
+        },
+        {
+            "class": "Sorceress",
+            "code": 39,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51b0\u5f39",
+            "name_en": "Icebolt",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 40,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51b0\u5c01\u88c5\u7532",
+            "name_en": "Frozen Armor",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 44,
+            "description": null,
+            "name_abbr": "FN",
+            "name_cn": "\u971c\u4e4b\u65b0\u661f",
+            "name_en": "Frost Nova",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 45,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51b0\u98ce\u66b4",
+            "name_en": "Ice Blast",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 50,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u788e\u51b0\u7532",
+            "name_en": "Shiver Armor",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 55,
+            "description": null,
+            "name_abbr": "GS",
+            "name_cn": "\u51b0\u5c16\u67f1",
+            "name_en": "Glacial Spike",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 59,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u66b4\u98ce\u96ea",
+            "name_en": "Blizzard",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 60,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5bd2\u51b0\u88c5\u7532",
+            "name_en": "Chilling Armor",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 64,
+            "description": null,
+            "name_abbr": "FO",
+            "name_cn": "\u51b0\u5c01\u7403",
+            "name_en": "Frozen Orb",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Sorceress",
+            "code": 65,
+            "description": null,
+            "name_abbr": "FM",
+            "name_cn": "\u652f\u914d\u51b0\u51b7",
+            "name_en": "Cold Matery",
+            "skill_tab": "Cold"
+        },
+        {
+            "class": "Necromancer",
+            "code": 66,
+            "description": "\u8bc5\u5492\u4e00\u7ec4\u654c\u4eba, \u52a0\u6df1\u4ed6\u4eec\u53d7\u5230\u7684\u7269\u7406\u4f24\u5bb3",
+            "name_abbr": "AD",
+            "name_cn": "\u4f24\u5bb3\u52a0\u6df1",
+            "name_en": "Amplify Damage",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 71,
+            "description": null,
+            "name_abbr": "Dim",
+            "name_cn": "\u5fae\u6697\u7075\u89c6",
+            "name_en": "Dim Vision",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 72,
+            "description": "\u8bc5\u5492\u4e00\u7ec4\u654c\u4eba, \u51cf\u5c11\u4ed6\u4eec\u9020\u6210\u7684\u4f24\u5bb3",
+            "name_abbr": null,
+            "name_cn": "\u524a\u5f31",
+            "name_en": "Weaken",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 76,
+            "description": null,
+            "name_abbr": "IM",
+            "name_cn": "\u653b\u51fb\u53cd\u566c",
+            "name_en": "Iron Maiden",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 77,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6050\u60e7",
+            "name_en": "Terror",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 81,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u8ff7\u4e71",
+            "name_en": "Confuse",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 82,
+            "description": "\u8bc5\u5492\u4e00\u7ec4\u602a\u7269, \u4f7f\u5b83\u4eec\u88ab\u653b\u51fb\u65f6\u751f\u547d\u6d41\u5411\u653b\u51fb\u8005",
+            "name_abbr": null,
+            "name_cn": "\u5077\u53d6\u751f\u547d",
+            "name_en": "Life Tap",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 86,
+            "description": "\u8bc5\u5492\u4e00\u4e2a\u602a\u7269 , \u4f7f\u5b83\u6210\u4e3a\u9644\u8fd1\u602a\u7269\u7684\u653b\u51fb\u76ee\u6807, \u6b64\u8bc5\u5492\u4e0d\u80fd\u548c\u5176\u5b83\u8bc5\u5492\u53e0\u52a0",
+            "name_abbr": null,
+            "name_cn": "\u5438\u5f15",
+            "name_en": "Attracc",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 87,
+            "description": "\u8bc5\u5492\u4e00\u7ec4\u654c\u4eba , \u4f7f\u4ed6\u4eec\u53d8\u6162, \u53d8\u5f31\u5e76\u51cf\u5c11\u5b83\u4eec\u9020\u6210\u7684\u4f24\u5bb3",
+            "name_abbr": "Dec",
+            "name_cn": "\u8870\u8001",
+            "name_en": "Decrepify",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 91,
+            "description": null,
+            "name_abbr": "LR",
+            "name_cn": "\u964d\u4f4e\u62b5\u6297",
+            "name_en": "Lower Resist",
+            "skill_tab": "Curses"
+        },
+        {
+            "class": "Necromancer",
+            "code": 67,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u7259",
+            "name_en": "Teech",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 68,
+            "description": null,
+            "name_abbr": "BA",
+            "name_cn": "\u767d\u9aa8\u88c5\u7532",
+            "name_en": "Bone Armor",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 73,
+            "description": null,
+            "name_abbr": "PD",
+            "name_cn": "\u6dec\u6bd2\u5315\u9996",
+            "name_en": "Poison Dagger",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 74,
+            "description": null,
+            "name_abbr": "CE",
+            "name_cn": "\u5c38\u4f53\u7206\u70b8",
+            "name_en": "Corpse Explosion",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 78,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9aa8\u5899",
+            "name_en": "Bone Wall",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 83,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6bd2\u7206",
+            "name_en": "Poison Explosion",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 84,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9aa8\u77db",
+            "name_en": "Bone Spear",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 88,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9aa8\u7262",
+            "name_en": "Bone Prison",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 92,
+            "description": null,
+            "name_abbr": "PN",
+            "name_cn": "\u5267\u6bd2\u65b0\u661f",
+            "name_en": "Poison Nova",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 93,
+            "description": null,
+            "name_abbr": "BS",
+            "name_cn": "\u767d\u9aa8\u4e4b\u9b42",
+            "name_en": "Bone Spirit",
+            "skill_tab": "Poison and Bone"
+        },
+        {
+            "class": "Necromancer",
+            "code": 69,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u652f\u914d\u9ab7\u9ac5",
+            "name_en": "Skeleton Mastery",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 70,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9ab7\u9ac5\u590d\u82cf",
+            "name_en": "Raise Skeleton",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 75,
+            "description": null,
+            "name_abbr": "CG",
+            "name_cn": "\u9ecf\u571f\u77f3\u9b54",
+            "name_en": "Clay Golem",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 79,
+            "description": null,
+            "name_abbr": "GM",
+            "name_cn": "\u652f\u914d\u77f3\u9b54",
+            "name_en": "Golem Mastery",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 80,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u590d\u82cf\u9ab7\u9ac5\u6cd5\u5e08",
+            "name_en": "Raise Skeletal Mage",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 85,
+            "description": null,
+            "name_abbr": "BG",
+            "name_cn": "\u9c9c\u8840\u77f3\u9b54",
+            "name_en": "Blood Golem",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 89,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u53ec\u5524\u62b5\u6297",
+            "name_en": "Summoned Resistance",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 90,
+            "description": "\u4ece\u91d1\u5c5e\u6b66\u5668\u4e2d\u53ec\u5524\u77f3\u9b54, \u77f3\u9b54\u4f1a\u83b7\u5f97\u7269\u54c1\u7684\u5c5e\u6027",
+            "name_abbr": "IG",
+            "name_cn": "\u94a2\u94c1\u77f3\u9b54",
+            "name_en": "Iron Golem",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 94,
+            "description": null,
+            "name_abbr": "FG",
+            "name_cn": "\u706b\u7130\u77f3\u9b54",
+            "name_en": "Fire Golem",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Necromancer",
+            "code": 95,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u91cd\u751f",
+            "name_en": "Revive",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Paladin",
+            "code": 96,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u727a\u7272",
+            "name_en": "Sacrifice",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 97,
+            "description": "\u7528\u76fe\u724c\u6253\u51fb\u654c\u4eba, \u4f7f\u5176\u77ed\u6682\u660f\u8ff7",
+            "name_abbr": null,
+            "name_cn": "\u91cd\u51fb",
+            "name_en": "Smite",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 101,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5723\u5149\u5f39",
+            "name_en": "Holy Bolt",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 106,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u767d\u70ed",
+            "name_en": "Zeal",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 107,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51b2\u950b",
+            "name_en": "Charge",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 111,
+            "description": "\u5728\u653b\u51fb\u4e2d\u9644\u52a0\u706b\u7130, \u51b0\u51bb\u548c\u95ea\u7535\u4f24\u5bb3",
+            "name_abbr": "Veng",
+            "name_cn": "\u590d\u4ec7",
+            "name_en": "Vengeance",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 112,
+            "description": null,
+            "name_abbr": "BH",
+            "name_cn": "\u795d\u798f\u4e4b\u9524",
+            "name_en": "Blessed Hammer",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 116,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u8f6c\u6362",
+            "name_en": "Conversion",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 117,
+            "description": null,
+            "name_abbr": "HS",
+            "name_cn": "\u795e\u5723\u4e4b\u76fe",
+            "name_en": "Holy Shield",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 121,
+            "description": null,
+            "name_abbr": "FOH",
+            "name_cn": "\u5929\u5802\u4e4b\u62f3",
+            "name_en": "Fist of the Heavens",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Paladin",
+            "code": 98,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u529b\u91cf",
+            "name_en": "Might",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 102,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5723\u706b",
+            "name_en": "HolyFire",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 103,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u8346\u68d8",
+            "name_en": "Thorns",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 108,
+            "description": null,
+            "name_abbr": "BA",
+            "name_cn": "\u795d\u798f\u7784\u51c6",
+            "name_en": "Blessed Aim",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 113,
+            "description": null,
+            "name_abbr": "Conc",
+            "name_cn": "\u4e13\u6ce8",
+            "name_en": "Concentration",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 114,
+            "description": null,
+            "name_abbr": "HF",
+            "name_cn": "\u795e\u5723\u51b0\u51bb",
+            "name_en": "Holy Freeze",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 118,
+            "description": null,
+            "name_abbr": "HS",
+            "name_cn": "\u795e\u5723\u51b2\u51fb",
+            "name_en": "Holy Shock",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 119,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5e87\u62a4\u6240",
+            "name_en": "Sanctuary",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 122,
+            "description": "\u589e\u52a0\u4f24\u5bb3, \u653b\u51fb\u901f\u5ea6\u548c\u51c6\u786e\u7387",
+            "name_abbr": "Fana",
+            "name_cn": "\u72c2\u70ed",
+            "name_en": "Fanaticism",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 123,
+            "description": null,
+            "name_abbr": "Conv",
+            "name_cn": "\u4fe1\u5ff5",
+            "name_en": "Conviction",
+            "skill_tab": "Offensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 99,
+            "description": "\u6162\u6162\u5730\u6062\u590d\u4f60\u548c\u961f\u53cb\u7684\u751f\u547d",
+            "name_abbr": null,
+            "name_cn": "\u7948\u7977",
+            "name_en": "Prayer",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 100,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u62b5\u6297\u706b\u7130",
+            "name_en": "Resist Fire",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 104,
+            "description": "\u589e\u52a0\u9632\u5fa1",
+            "name_abbr": null,
+            "name_cn": "\u53cd\u6297",
+            "name_en": "Defiance",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 105,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u62b5\u6297\u51b0\u51b7",
+            "name_en": "Resist Cold",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 109,
+            "description": "\u51cf\u5c11\u6bd2\u6c14\u548c\u8bc5\u5492\u7684\u6301\u7eed\u65f6\u95f4",
+            "name_abbr": null,
+            "name_cn": "\u51c0\u5316",
+            "name_en": "Cleansing",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 110,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u62b5\u6297\u95ea\u7535",
+            "name_en": "Resist Lightning",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 115,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6d3b\u529b",
+            "name_en": "Vigor",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 120,
+            "description": "\u589e\u52a0\u6cd5\u529b\u56de\u590d\u901f\u5ea6",
+            "name_abbr": "Med",
+            "name_cn": "\u51a5\u601d",
+            "name_en": "Meditation",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 124,
+            "description": "\u5229\u7528\u5c38\u4f53, \u6062\u590d\u751f\u547d\u548c\u6cd5\u529b",
+            "name_abbr": null,
+            "name_cn": "\u6551\u8d4e",
+            "name_en": "Redemption",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Paladin",
+            "code": 125,
+            "description": "\u964d\u4f4e\u706b\u7130, \u51b0\u51bb\u548c\u95ea\u7535\u4f24\u5bb3",
+            "name_abbr": null,
+            "name_cn": "\u6551\u52a9",
+            "name_en": "Salvation",
+            "skill_tab": "Defensive Auras"
+        },
+        {
+            "class": "Barbarian",
+            "code": 126,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u91cd\u51fb",
+            "name_en": "Bash",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 132,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u8df3\u8dc3",
+            "name_en": "Leap",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 133,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u53cc\u624b\u6325\u51fb",
+            "name_en": "Double Swing",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 139,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u51fb\u660f",
+            "name_en": "Stun",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 140,
+            "description": null,
+            "name_abbr": "DT",
+            "name_cn": "\u53cc\u624b\u6295\u63b7",
+            "name_en": "Double Throw",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 143,
+            "description": null,
+            "name_abbr": "LA",
+            "name_cn": "\u8df3\u8dc3\u653b\u51fb",
+            "name_en": "Leap Attack",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 144,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u4e13\u5fc3",
+            "name_en": "Concentrate",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 147,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u72c2\u4e71",
+            "name_en": "Frenzy",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 151,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u65cb\u98ce",
+            "name_en": "Whirlwind",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 152,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u72c2\u6218\u58eb",
+            "name_en": "Berserk",
+            "skill_tab": "Combat"
+        },
+        {
+            "class": "Barbarian",
+            "code": 127,
+            "description": null,
+            "name_abbr": "SM",
+            "name_cn": "\u652f\u914d\u957f\u5251",
+            "name_en": "Sword Mastery",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 128,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u652f\u914d\u65a7\u5934",
+            "name_en": "Axe Mastery",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 129,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u652f\u914d\u9489\u5934\u69cc",
+            "name_en": "Mace Mastery",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 134,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u652f\u914d\u957f\u67c4\u6b66\u5668",
+            "name_en": "Polearm Mastery",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 135,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u652f\u914d\u98de\u63b7",
+            "name_en": "Throwing Mastery",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 136,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u652f\u914d\u957f\u77db",
+            "name_en": "Spear Mastery",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 141,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u589e\u52a0\u8010\u529b",
+            "name_en": "Increased Stamina",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 145,
+            "description": null,
+            "name_abbr": "IS",
+            "name_cn": "\u94c1\u5e03\u6749",
+            "name_en": "Iron Skin",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 148,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u52a0\u901f",
+            "name_en": "Increased Speed",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 153,
+            "description": "\u964d\u4f4e\u5143\u7d20\u548c\u6bd2\u7d20\u4f24\u5bb3",
+            "name_abbr": "NR",
+            "name_cn": "\u81ea\u7136\u62b5\u6297",
+            "name_en": "Natural Resistance",
+            "skill_tab": "Combat Masteries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 130,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u72c2\u55e5",
+            "name_en": "Howl",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 131,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u627e\u5bfb\u836f\u5242",
+            "name_en": "Find Potion",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 137,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5632\u5f04",
+            "name_en": "Taunt",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 138,
+            "description": "\u589e\u52a0\u9632\u5fa1",
+            "name_abbr": null,
+            "name_cn": "\u5927\u53eb",
+            "name_en": "Shout",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 142,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u627e\u5bfb\u7269\u54c1",
+            "name_en": "Find Item",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 146,
+            "description": "\u964d\u4f4e\u654c\u4eba\u7684\u4f24\u5bb3\u548c\u9632\u5fa1",
+            "name_abbr": null,
+            "name_cn": "\u6218\u55e5",
+            "name_en": "Battle Cry",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 149,
+            "description": "\u589e\u52a0\u751f\u547d, \u6cd5\u529b\u548c\u8010\u529b",
+            "name_abbr": "BP",
+            "name_cn": "\u6218\u6597\u4f53\u5236",
+            "name_en": "Battle Orders",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 150,
+            "description": "\u5229\u7528\u602a\u7269\u7684\u5c38\u4f53, \u521b\u9020\u4e00\u4e2a\u6050\u6016\u7684\u56fe\u817e, \u5413\u8dd1\u9644\u8fd1\u7684\u602a\u7269",
+            "name_abbr": null,
+            "name_cn": "\u6b8b\u9177\u5413\u963b",
+            "name_en": "Grim Ward",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 154,
+            "description": "\u4f24\u5bb3\u9644\u8fd1\u7684\u654c\u4eba\u5e76\u4f7f\u5176\u6655\u7729",
+            "name_abbr": null,
+            "name_cn": "\u6218\u6597\u72c2\u55e5",
+            "name_en": "Warcry",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Barbarian",
+            "code": 155,
+            "description": "\u4e34\u65f6\u589e\u52a0\u4f60\u548c\u961f\u53cb\u7684\u6280\u80fd1\u7ea7",
+            "name_abbr": "BC",
+            "name_cn": "\u6218\u6597\u6307\u6325",
+            "name_en": "Battle Command",
+            "skill_tab": "War Cries"
+        },
+        {
+            "class": "Druid",
+            "code": 221,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u4e4c\u9e26",
+            "name_en": "Raven",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 222,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u731b\u6bd2\u82b1\u85e4",
+            "name_en": "Poison Creeper",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 226,
+            "description": "\u53ec\u5524\u7075\u517d\u4e3a\u4f60\u548c\u961f\u53cb\u589e\u52a0\u751f\u547d",
+            "name_abbr": "OS",
+            "name_cn": "\u6a61\u6728\u667a\u8005",
+            "name_en": "Oak Sage",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 227,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u53ec\u5524\u72fc\u7075",
+            "name_en": "Summon Spirit Wolf",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 231,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u98df\u5c38\u85e4",
+            "name_en": "Carrion Vine",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 236,
+            "description": "\u53ec\u5524\u4e00\u53ea\u7075\u517d\u6765\u589e\u52a0\u4f60\u548c\u961f\u53cb\u7684\u4f24\u5bb3\u548c\u547d\u4e2d\u7387",
+            "name_abbr": "HOW",
+            "name_cn": "\u72fc\u737e\u4e4b\u5fc3",
+            "name_en": "Heart of Wolverine",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 237,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u53ec\u5524\u72c2\u72fc",
+            "name_en": "Summon Dire Wolf",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 241,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u592a\u9633\u85e4",
+            "name_en": "Solar Creeper",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 246,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u68d8\u7075",
+            "name_en": "Spirit of Barbs",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 247,
+            "description": null,
+            "name_abbr": "Griz",
+            "name_cn": "\u53ec\u5524\u7070\u718a",
+            "name_en": "Summon Grizzly",
+            "skill_tab": "Summoning"
+        },
+        {
+            "class": "Druid",
+            "code": 223,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u72fc\u4eba\u53d8\u5316",
+            "name_en": "Werewolf",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 224,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u53d8\u5f62\u672f",
+            "name_en": "Lycanthropy",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 228,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u718a\u4eba\u53d8\u5316",
+            "name_en": "Werebear",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 233,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u649e\u69cc",
+            "name_en": "Maul",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 232,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u91ce\u6027\u72c2\u66b4",
+            "name_en": "Feral Rage",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 239,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u7130\u722a",
+            "name_en": "Fire Claws",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 238,
+            "description": "\u5f53\u53d8\u4e3a\u72fc\u4eba\u65f6\u6495\u54ac\u654c\u4eba\u7684\u540c\u65f6, \u9020\u6210\u6bd2\u7d20\u4f24\u5bb3\u5e76\u4f20\u64ad\u5230\u5176\u4ed6\u602a\u7269",
+            "name_abbr": null,
+            "name_cn": "\u72c2\u72ac\u75c5",
+            "name_en": "Rabies",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 243,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9707\u6ce2",
+            "name_en": "Shock Wave",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 242,
+            "description": "\u5f53\u53d8\u5f62\u4e3a\u72fc\u4eba\u6216\u718a\u4eba\u65f6, \u6495\u54ac\u654c\u4eba\u5077\u53d6\u751f\u547d\u548c\u9b54\u6cd5",
+            "name_abbr": null,
+            "name_cn": "\u9965\u997f",
+            "name_en": "Hunger",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 248,
+            "description": "\u5f53\u53d8\u5f62\u4e3a\u72fc\u4eba\u65f6, \u53ef\u4ee5\u653b\u51fb\u591a\u4e2a\u9644\u8fd1\u7684\u654c\u4eba, \u6216\u8005\u653b\u51fb\u591a\u6b21\u5355\u4e2a\u654c\u4eba",
+            "name_abbr": null,
+            "name_cn": "\u72c2\u6012",
+            "name_en": "Fury",
+            "skill_tab": "Shape Shifting"
+        },
+        {
+            "class": "Druid",
+            "code": 225,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u706b\u98ce\u7206",
+            "name_en": "Firestorm",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 229,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u7194\u6d46\u5de8\u5ca9",
+            "name_en": "Molten Boulder",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 230,
+            "description": null,
+            "name_abbr": "AB",
+            "name_cn": "\u6781\u5730\u98ce\u66b4",
+            "name_en": "Arctic Blast",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 234,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u706b\u5c71\u7206",
+            "name_en": "Fissure",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 235,
+            "description": null,
+            "name_abbr": "CA",
+            "name_cn": "\u98d3\u98ce\u88c5\u7532",
+            "name_en": "Cyclone Armor",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 240,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5c0f\u65cb\u98ce",
+            "name_en": "Twister",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 244,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u706b\u5c71",
+            "name_en": "Volcano",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 245,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9f99\u5377\u98ce",
+            "name_en": "Tornado",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 250,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u66b4\u98ce",
+            "name_en": "Hurricane",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Druid",
+            "code": 249,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6bc1\u5929\u706d\u5730",
+            "name_en": "Armageddon",
+            "skill_tab": "Elemental"
+        },
+        {
+            "class": "Assassin",
+            "code": 251,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u706b\u7130\u7206\u9707",
+            "name_en": "Fire Blast",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 256,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u96f7\u7535\u7f51",
+            "name_en": "Shock Web",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 257,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5203\u4e4b\u5b88\u536b",
+            "name_en": "Blade Sentinel",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 261,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u7535\u80fd\u5b88\u536b",
+            "name_en": "Charged Bolt Sentry",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 262,
+            "description": null,
+            "name_abbr": "WOF",
+            "name_cn": "\u706b\u7130\u590d\u82cf",
+            "name_en": "Wake Of Fire",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 266,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5203\u4e4b\u6012",
+            "name_en": "Blade Fury",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 271,
+            "description": "\u8bbe\u7f6e\u4e00\u4e2a\u9677\u9631, \u53d1\u51fa\u95ea\u7535\u70e7\u7126\u7ecf\u8fc7\u7684\u654c\u4eba",
+            "name_abbr": "LS",
+            "name_cn": "\u96f7\u5149\u5b88\u536b",
+            "name_en": "Lightning Sentry",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 272,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u590d\u82cf\u72f1\u706b",
+            "name_en": "Wake Of Inferno",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 276,
+            "description": "\u8fd9\u4e2a\u9677\u9631\u88ab\u89e6\u53d1\u540e\u5c06\u4f1a\u91ca\u653e\u51fa, \u95ea\u7535\u653b\u51fb\u9644\u8fd1\u7684\u654c\u4eba\u6216\u662f\u5f15\u7206\u654c\u4eba\u7684\u5c38\u4f53",
+            "name_abbr": "DS",
+            "name_cn": "\u4ea1\u8005\u5b88\u536b",
+            "name_en": "Death Sentry",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 277,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5200\u5203\u4e4b\u76fe",
+            "name_en": "Blade Shield",
+            "skill_tab": "Traps"
+        },
+        {
+            "class": "Assassin",
+            "code": 252,
+            "description": null,
+            "name_abbr": "CM",
+            "name_cn": "\u652f\u914d\u5229\u722a",
+            "name_en": "Claw Mastery",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 253,
+            "description": "\u7528\u7cbe\u795e\u529b\u91cf\u53d1\u51fa\u4e00\u4e2a\u7cbe\u795e\u6218\u8ffd, \u6253\u51fb\u5e76\u9707\u9000\u4f60\u7684\u654c\u4eba",
+            "name_abbr": null,
+            "name_cn": "\u5fc3\u7075\u6218\u69cc",
+            "name_en": "Psychic Hammer",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 258,
+            "description": "\u5728\u4e00\u6bb5\u65f6\u95f4\u5185\u589e\u52a0\u653b\u51fb\u548c\u79fb\u52a8\u901f\u5ea6",
+            "name_abbr": "BOS",
+            "name_cn": "\u901f\u5ea6\u7206\u53d1",
+            "name_en": "Burst of Speed",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 264,
+            "description": "\u5728\u4e00\u5c0f\u6bb5\u65f6\u95f4\u5185\u4f7f\u654c\u4eba\u778e\u6389, \u5e76\u964d\u4f4e\u654c\u4eba\u7684\u9632\u5fa1\u529b",
+            "name_abbr": "COS",
+            "name_cn": "\u9b54\u5f71\u6597\u7bf7",
+            "name_en": "Cloak of Shadows",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 263,
+            "description": "\u88ab\u52a8 - \u5f53\u88c5\u5907\u53cc\u722a\u65f6\u589e\u52a0\u6b66\u5668\u683c\u6321\u6982\u7387",
+            "name_abbr": "WB",
+            "name_cn": "\u6b66\u5668\u683c\u6321",
+            "name_en": "Weapon Block",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 267,
+            "description": "\u63d0\u9ad8\u5404\u65b9\u9762\u62b5\u6297\u80fd\u529b\u5e76\u62b5\u6297\u8bc5\u5492",
+            "name_abbr": null,
+            "name_cn": "\u80fd\u91cf\u6d88\u89e3",
+            "name_en": "Fade",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 268,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u5f71\u5b50\u6218\u58eb",
+            "name_en": "Shadow Warrior",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 273,
+            "description": "\u4f7f\u7528\u7cbe\u795e\u529b\u91cf\u9707\u6655\u4e00\u5c0f\u961f\u654c\u4eba, \u5e76\u4f7f\u610f\u5fd7\u8584\u5f31\u8005\u5012\u6208\u653b\u51fb",
+            "name_abbr": "MB",
+            "name_cn": "\u5fc3\u7075\u7206\u9707",
+            "name_en": "Mind Blast",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 278,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u6bd2\u7259",
+            "name_en": "Venom",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 279,
+            "description": null,
+            "name_abbr": "SM",
+            "name_cn": "\u5f71\u5b50\u5927\u5e08",
+            "name_en": "Shadow Master",
+            "skill_tab": "Shadow Disciplines"
+        },
+        {
+            "class": "Assassin",
+            "code": 254,
+            "description": null,
+            "name_abbr": "TS",
+            "name_cn": "\u864e\u51fb",
+            "name_en": "Tiger Strike",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 255,
+            "description": null,
+            "name_abbr": null,
+            "name_cn": "\u9f99\u722a",
+            "name_en": "Dragon Talon",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 260,
+            "description": null,
+            "name_abbr": "DC",
+            "name_cn": "\u53cc\u9f99\u722a",
+            "name_en": "Dragon Claw",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 259,
+            "description": null,
+            "name_abbr": "FOF",
+            "name_cn": "\u7130\u62f3",
+            "name_en": "Fists of Fire",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 265,
+            "description": null,
+            "name_abbr": "CS",
+            "name_cn": "\u773c\u955c\u86c7\u653b\u51fb",
+            "name_en": "Cobra Strike",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 270,
+            "description": null,
+            "name_abbr": "DT",
+            "name_cn": "\u795e\u9f99\u6446\u5c3e",
+            "name_en": "Dragon Tail",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 269,
+            "description": null,
+            "name_abbr": "COT",
+            "name_cn": "\u96f7\u7535\u722a",
+            "name_en": "Claws of Thunder",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 274,
+            "description": null,
+            "name_abbr": "BOI",
+            "name_cn": "\u5bd2\u51b0\u5203",
+            "name_en": "Blades of Ice",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 275,
+            "description": null,
+            "name_abbr": "DF",
+            "name_cn": "\u98de\u9f99\u5728\u5929",
+            "name_en": "Dragon Flight",
+            "skill_tab": "Martial Art"
+        },
+        {
+            "class": "Assassin",
+            "code": 280,
+            "description": null,
+            "name_abbr": "PS",
+            "name_cn": "\u51e4\u51f0\u653b\u51fb",
+            "name_en": "Phoenix Strike",
+            "skill_tab": "Martial Art"
+        }
+    ],
+    "searchable": [
+        "class",
+        "skill_tab",
+        "name_en",
+        "name_cn",
+        "name_abbr"
+    ]
+}

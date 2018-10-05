@@ -1,0 +1,22 @@
+class	class_code	name_en	name_cn	nth	code
+Amazon	0	Bow	弓和十字弓技能	0	0
+Amazon	0	Passive	被动和魔法技能	1	1
+Amazon	0	Javelin	标枪和长矛技能	2	2
+Sorceress	1	Fire	火焰法术	0	8
+Sorceress	1	Lighting	闪电法术	1	9
+Sorceress	1	Cold	冰冻法术	2	10
+Necromancer	2	Curses	诅咒	0	16
+Necromancer	2	Poison and Bone	毒素和白骨法术	1	17
+Necromancer	2	Summoning	召唤法术	2	18
+Paladin	3	Combat	作战技能	0	24
+Paladin	3	Offensive Auras	攻击灵气	1	25
+Paladin	3	Defensive Auras	野蛮人	2	26
+Barbarian	4	Combat	战斗技能	0	32
+Barbarian	4	Combat Masteries	战斗专家	1	33
+Barbarian	4	War Cries	呐喊	2	34
+Druid	5	Summoning	召唤	0	40
+Druid	5	Shape Shifting	外型变形	1	41
+Druid	5	Elemental	元素	2	42
+Assassin	6	Traps	陷阱	0	48
+Assassin	6	Shadow Disciplines	影子训练	1	49
+Assassin	6	Martial Art	武学艺术	2	50

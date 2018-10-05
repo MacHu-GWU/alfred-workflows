@@ -1,0 +1,211 @@
+class	skill_tab	name_en	name_cn	name_abbr	code	description
+Amazon	Bow	Magic Arrow	魔法箭	MA	6
+Amazon	Bow	Fire Arrow	火焰箭	FA	7
+Amazon	Bow	Cold Arrow	冰箭		11
+Amazon	Bow	Multiple Shot	多重箭	MS	12
+Amazon	Bow	Exploding Arrow	爆裂箭		16
+Amazon	Bow	Ice Arrow	急冻箭		21
+Amazon	Bow	Guided Arrow	导引箭	GA	22
+Amazon	Bow	Strafe	炮轰	扫射	26	让射出的箭矢自动瞄准攻击多个附近的敌人
+Amazon	Bow	Immolating Arrow	牺牲之箭	Immo	27
+Amazon	Bow	Freezing Arrow	冻结之箭	FA	31	冰冻加强的箭矢或弓弹, 可以冻结多个敌人
+Amazon	Passive	Inner Sight	内视		8
+Amazon	Passive	Critical Shot	双倍打击	CS	9
+Amazon	Passive	Dodge	闪避		13
+Amazon	Passive	Slow Missiles	慢速箭	SM	17
+Amazon	Passive	Avoid	躲避		18
+Amazon	Passive	Penetrate	刺入		23
+Amazon	Passive	Decoy	诱饵		28
+Amazon	Passive	Evade	回避		29
+Amazon	Passive	Valkyrie	女武神	Valk	32
+Amazon	Passive	Pierce	穿透		33
+Amazon	Javelin	Jab	戳刺		10
+Amazon	Javelin	Power Strike	威力一击		14
+Amazon	Javelin	Poison Javelin	毒枪		15
+Amazon	Javelin	Impale	刺爆		19
+Amazon	Javelin	Lightning Bolt	闪电球		20
+Amazon	Javelin	Charged Strike	充能一击	CS	24
+Amazon	Javelin	Plague Javelin	瘟疫标枪		25
+Amazon	Javelin	Fend	击退		30
+Amazon	Javelin	Lightning Strike	闪电攻击		34
+Amazon	Javelin	Lightning Fury	闪电之怒	LF	35
+Sorceress	Fire	Firebolt	火弹		36
+Sorceress	Fire	Warmth	热情		37
+Sorceress	Fire	Inferno	地狱之火		41
+Sorceress	Fire	Blaze	炽烈之径		46
+Sorceress	Fire	Fireball	火球	FB	47
+Sorceress	Fire	Firewall	火墙	FW	51
+Sorceress	Fire	Enchant	火焰强化		52	给近战武器附上火焰伤害, 在远程武器上加上1/3火焰伤害
+Sorceress	Fire	Meteor	陨石		56
+Sorceress	Fire	Hydra	九头海蛇		62
+Sorceress	Fire	Fire Mastery	支配之焰	FM	61
+Sorceress	Lighting	Charged Bolt	充能弹	CB	38
+Sorceress	Lighting	Static Field	静态力场	SF	42	创造一个静电力场降低所有附近敌人的生命
+Sorceress	Lighting	Telekinesis	心灵传动	TK	43	使用精神力量拾取物品, 触发机关, 或打击敌人
+Sorceress	Lighting	Nova	新星		48
+Sorceress	Lighting	Lightning	闪电		49
+Sorceress	Lighting	Chain Lightning	连锁闪电	CL	53
+Sorceress	Lighting	Teleport	传送	TP	54	瞬间移动到视力所及的目的地
+Sorceress	Lighting	Thunder Storm	雷云风暴	TS	57
+Sorceress	Lighting	Energy Shield	能量护盾	ES	58	创造一个能量护盾, 用魔法来代替生命受到的伤害
+Sorceress	Lighting	Lightning Mastery	支配闪电	LM	63
+Sorceress	Cold	Icebolt	冰弹		39
+Sorceress	Cold	Frozen Armor	冰封装甲		40
+Sorceress	Cold	Frost Nova	霜之新星	FN	44
+Sorceress	Cold	Ice Blast	冰风暴		45
+Sorceress	Cold	Shiver Armor	碎冰甲		50
+Sorceress	Cold	Glacial Spike	冰尖柱	GS	55
+Sorceress	Cold	Blizzard	暴风雪		59
+Sorceress	Cold	Chilling Armor	寒冰装甲		60
+Sorceress	Cold	Frozen Orb	冰封球	FO	64
+Sorceress	Cold	Cold Matery	支配冰冷	FM	65
+Necromancer	Curses	Amplify Damage	伤害加深	AD	66	诅咒一组敌人, 加深他们受到的物理伤害
+Necromancer	Curses	Dim Vision	微暗灵视	Dim	71
+Necromancer	Curses	Weaken	削弱		72	诅咒一组敌人, 减少他们造成的伤害
+Necromancer	Curses	Iron Maiden	攻击反噬	IM	76
+Necromancer	Curses	Terror	恐惧		77
+Necromancer	Curses	Confuse	迷乱		81
+Necromancer	Curses	Life Tap	偷取生命		82	诅咒一组怪物, 使它们被攻击时生命流向攻击者
+Necromancer	Curses	Attracc	吸引		86	诅咒一个怪物 , 使它成为附近怪物的攻击目标, 此诅咒不能和其它诅咒叠加
+Necromancer	Curses	Decrepify	衰老	Dec	87	诅咒一组敌人 , 使他们变慢, 变弱并减少它们造成的伤害
+Necromancer	Curses	Lower Resist	降低抵抗	LR	91
+Necromancer	Poison and Bone	Teech	牙		67
+Necromancer	Poison and Bone	Bone Armor	白骨装甲	BA	68
+Necromancer	Poison and Bone	Poison Dagger	淬毒匕首	PD	73
+Necromancer	Poison and Bone	Corpse Explosion	尸体爆炸	CE	74
+Necromancer	Poison and Bone	Bone Wall	骨墙		78
+Necromancer	Poison and Bone	Poison Explosion	毒爆		83
+Necromancer	Poison and Bone	Bone Spear	骨矛		84
+Necromancer	Poison and Bone	Bone Prison	骨牢		88
+Necromancer	Poison and Bone	Poison Nova	剧毒新星	PN	92
+Necromancer	Poison and Bone	Bone Spirit	白骨之魂	BS	93
+Necromancer	Summoning	Skeleton Mastery	支配骷髅		69
+Necromancer	Summoning	Raise Skeleton	骷髅复苏		70
+Necromancer	Summoning	Clay Golem	黏土石魔	CG	75
+Necromancer	Summoning	Golem Mastery	支配石魔	GM	79
+Necromancer	Summoning	Raise Skeletal Mage	复苏骷髅法师		80
+Necromancer	Summoning	Blood Golem	鲜血石魔	BG	85
+Necromancer	Summoning	Summoned Resistance	召唤抵抗		89
+Necromancer	Summoning	Iron Golem	钢铁石魔	IG	90	从金属武器中召唤石魔, 石魔会获得物品的属性
+Necromancer	Summoning	Fire Golem	火焰石魔	FG	94
+Necromancer	Summoning	Revive	重生		95
+Paladin	Combat	Sacrifice	牺牲		96
+Paladin	Combat	Smite	重击		97	用盾牌打击敌人, 使其短暂昏迷
+Paladin	Combat	Holy Bolt	圣光弹		101
+Paladin	Combat	Zeal	白热		106
+Paladin	Combat	Charge	冲锋		107
+Paladin	Combat	Vengeance	复仇	Veng	111	在攻击中附加火焰, 冰冻和闪电伤害
+Paladin	Combat	Blessed Hammer	祝福之锤	BH	112
+Paladin	Combat	Conversion	转换		116
+Paladin	Combat	Holy Shield	神圣之盾	HS	117
+Paladin	Combat	Fist of the Heavens	天堂之拳	FOH	121
+Paladin	Offensive Auras	Might	力量		98
+Paladin	Offensive Auras	HolyFire	圣火		102
+Paladin	Offensive Auras	Thorns	荆棘		103
+Paladin	Offensive Auras	Blessed Aim	祝福瞄准	BA	108
+Paladin	Offensive Auras	Concentration	专注	Conc	113
+Paladin	Offensive Auras	Holy Freeze	神圣冰冻	HF	114
+Paladin	Offensive Auras	Holy Shock	神圣冲击	HS	118
+Paladin	Offensive Auras	Sanctuary	庇护所		119
+Paladin	Offensive Auras	Fanaticism	狂热	Fana	122	增加伤害, 攻击速度和准确率
+Paladin	Offensive Auras	Conviction	信念	Conv	123
+Paladin	Defensive Auras	Prayer	祈祷		99	慢慢地恢复你和队友的生命
+Paladin	Defensive Auras	Resist Fire	抵抗火焰		100
+Paladin	Defensive Auras	Defiance	反抗		104	增加防御
+Paladin	Defensive Auras	Resist Cold	抵抗冰冷		105
+Paladin	Defensive Auras	Cleansing	净化		109	减少毒气和诅咒的持续时间
+Paladin	Defensive Auras	Resist Lightning	抵抗闪电		110
+Paladin	Defensive Auras	Vigor	活力		115
+Paladin	Defensive Auras	Meditation	冥思	Med	120	增加法力回复速度
+Paladin	Defensive Auras	Redemption	救赎		124	利用尸体, 恢复生命和法力
+Paladin	Defensive Auras	Salvation	救助		125	降低火焰, 冰冻和闪电伤害
+Barbarian	Combat	Bash	重击		126
+Barbarian	Combat	Leap	跳跃		132
+Barbarian	Combat	Double Swing	双手挥击		133
+Barbarian	Combat	Stun	击昏		139
+Barbarian	Combat	Double Throw	双手投掷	DT	140
+Barbarian	Combat	Leap Attack	跳跃攻击	LA	143
+Barbarian	Combat	Concentrate	专心		144
+Barbarian	Combat	Frenzy	狂乱		147
+Barbarian	Combat	Whirlwind	旋风		151
+Barbarian	Combat	Berserk	狂战士		152
+Barbarian	Combat Masteries	Sword Mastery	支配长剑	SM	127
+Barbarian	Combat Masteries	Axe Mastery	支配斧头		128
+Barbarian	Combat Masteries	Mace Mastery	支配钉头槌		129
+Barbarian	Combat Masteries	Polearm Mastery	支配长柄武器		134
+Barbarian	Combat Masteries	Throwing Mastery	支配飞掷		135
+Barbarian	Combat Masteries	Spear Mastery	支配长矛		136
+Barbarian	Combat Masteries	Increased Stamina	增加耐力		141
+Barbarian	Combat Masteries	Iron Skin	铁布杉	IS	145
+Barbarian	Combat Masteries	Increased Speed	加速		148
+Barbarian	Combat Masteries	Natural Resistance	自然抵抗	NR	153	降低元素和毒素伤害
+Barbarian	War Cries	Howl	狂嗥		130
+Barbarian	War Cries	Find Potion	找寻药剂		131
+Barbarian	War Cries	Taunt	嘲弄		137
+Barbarian	War Cries	Shout	大叫		138	增加防御
+Barbarian	War Cries	Find Item	找寻物品		142
+Barbarian	War Cries	Battle Cry	战嗥		146	降低敌人的伤害和防御
+Barbarian	War Cries	Battle Orders	战斗体制	BP	149	增加生命, 法力和耐力
+Barbarian	War Cries	Grim Ward	残酷吓阻		150	利用怪物的尸体, 创造一个恐怖的图腾, 吓跑附近的怪物
+Barbarian	War Cries	Warcry	战斗狂嗥		154	伤害附近的敌人并使其晕眩
+Barbarian	War Cries	Battle Command	战斗指挥	BC	155	临时增加你和队友的技能1级
+Druid	Summoning	Raven	乌鸦		221
+Druid	Summoning	Poison Creeper	猛毒花藤		222
+Druid	Summoning	Oak Sage	橡木智者	OS	226	召唤灵兽为你和队友增加生命
+Druid	Summoning	Summon Spirit Wolf	召唤狼灵		227
+Druid	Summoning	Carrion Vine	食尸藤		231
+Druid	Summoning	Heart of Wolverine	狼獾之心	HOW	236	召唤一只灵兽来增加你和队友的伤害和命中率
+Druid	Summoning	Summon Dire Wolf	召唤狂狼		237
+Druid	Summoning	Solar Creeper	太阳藤		241
+Druid	Summoning	Spirit of Barbs	棘灵		246
+Druid	Summoning	Summon Grizzly	召唤灰熊	Griz	247
+Druid	Shape Shifting	Werewolf	狼人变化		223
+Druid	Shape Shifting	Lycanthropy	变形术		224
+Druid	Shape Shifting	Werebear	熊人变化		228
+Druid	Shape Shifting	Maul	撞槌		233
+Druid	Shape Shifting	Feral Rage	野性狂暴		232
+Druid	Shape Shifting	Fire Claws	焰爪		239
+Druid	Shape Shifting	Rabies	狂犬病		238	当变为狼人时撕咬敌人的同时, 造成毒素伤害并传播到其他怪物
+Druid	Shape Shifting	Shock Wave	震波		243
+Druid	Shape Shifting	Hunger	饥饿		242	当变形为狼人或熊人时, 撕咬敌人偷取生命和魔法
+Druid	Shape Shifting	Fury	狂怒		248	当变形为狼人时, 可以攻击多个附近的敌人, 或者攻击多次单个敌人
+Druid	Elemental	Firestorm	火风爆		225
+Druid	Elemental	Molten Boulder	熔浆巨岩		229
+Druid	Elemental	Arctic Blast	极地风暴	AB	230
+Druid	Elemental	Fissure	火山爆		234
+Druid	Elemental	Cyclone Armor	飓风装甲	CA	235
+Druid	Elemental	Twister	小旋风		240
+Druid	Elemental	Volcano	火山		244
+Druid	Elemental	Tornado	龙卷风		245
+Druid	Elemental	Hurricane	暴风		250
+Druid	Elemental	Armageddon	毁天灭地		249
+Assassin	Traps	Fire Blast	火焰爆震		251
+Assassin	Traps	Shock Web	雷电网		256
+Assassin	Traps	Blade Sentinel	刃之守卫		257
+Assassin	Traps	Charged Bolt Sentry	电能守卫		261
+Assassin	Traps	Wake Of Fire	火焰复苏	WOF	262
+Assassin	Traps	Blade Fury	刃之怒		266
+Assassin	Traps	Lightning Sentry	雷光守卫	LS	271	设置一个陷阱, 发出闪电烧焦经过的敌人
+Assassin	Traps	Wake Of Inferno	复苏狱火		272
+Assassin	Traps	Death Sentry	亡者守卫	DS	276	这个陷阱被触发后将会释放出, 闪电攻击附近的敌人或是引爆敌人的尸体
+Assassin	Traps	Blade Shield	刀刃之盾		277
+Assassin	Shadow Disciplines	Claw Mastery	支配利爪	CM	252
+Assassin	Shadow Disciplines	Psychic Hammer	心灵战槌		253	用精神力量发出一个精神战追, 打击并震退你的敌人
+Assassin	Shadow Disciplines	Burst of Speed	速度爆发	BOS	258	在一段时间内增加攻击和移动速度
+Assassin	Shadow Disciplines	Cloak of Shadows	魔影斗篷	COS	264	在一小段时间内使敌人瞎掉, 并降低敌人的防御力
+Assassin	Shadow Disciplines	Weapon Block	武器格挡	WB	263	被动 - 当装备双爪时增加武器格挡概率
+Assassin	Shadow Disciplines	Fade	能量消解		267	提高各方面抵抗能力并抵抗诅咒
+Assassin	Shadow Disciplines	Shadow Warrior	影子战士		268
+Assassin	Shadow Disciplines	Mind Blast	心灵爆震	MB	273	使用精神力量震晕一小队敌人, 并使意志薄弱者倒戈攻击
+Assassin	Shadow Disciplines	Venom	毒牙		278
+Assassin	Shadow Disciplines	Shadow Master	影子大师	SM	279
+Assassin	Martial Art	Tiger Strike	虎击	TS	254
+Assassin	Martial Art	Dragon Talon	龙爪		255
+Assassin	Martial Art	Dragon Claw	双龙爪	DC	260
+Assassin	Martial Art	Fists of Fire	焰拳	FOF	259
+Assassin	Martial Art	Cobra Strike	眼镜蛇攻击	CS	265
+Assassin	Martial Art	Dragon Tail	神龙摆尾	DT	270
+Assassin	Martial Art	Claws of Thunder	雷电爪	COT	269
+Assassin	Martial Art	Blades of Ice	寒冰刃	BOI	274
+Assassin	Martial Art	Dragon Flight	飞龙在天	DF	275
+Assassin	Martial Art	Phoenix Strike	凤凰攻击	PS	280
