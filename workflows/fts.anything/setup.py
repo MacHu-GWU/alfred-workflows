@@ -14,7 +14,7 @@ from datetime import date
 from setuptools import setup, find_packages
 
 # --- import your package ---
-import fts_anything as package
+import alfred_wf_fts_anything as package
 
 if __name__ == "__main__":
     # --- Automatically generate setup parameters ---
