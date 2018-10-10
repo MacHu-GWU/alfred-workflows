@@ -40,7 +40,7 @@ class Setting(AttrsClass):
     :param keyword_columns: list. columns to use keyword index.
 
     :param ngram_minsize: minimal number of character to match., default 2.
-    :param ngram_maxsize: maximum number of character to match., default 2.
+    :param ngram_maxsize: maximum number of character to match., default 10.
     :param keyword_lowercase: for keyword type field, is the match case sensitive?
         default True (not sensitive).
     :param keyword_commas: is the delimiter of keyword is comma or space?
