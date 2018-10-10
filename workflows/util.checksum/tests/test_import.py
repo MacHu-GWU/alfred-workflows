@@ -6,7 +6,7 @@ from pytest import raises, approx
 
 
 def test():
-    import alfred_wf_fts_anything
+    import alfred_wf_util_checksum
     pass
 
 

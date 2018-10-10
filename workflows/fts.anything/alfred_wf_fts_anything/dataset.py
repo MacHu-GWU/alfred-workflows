@@ -5,6 +5,7 @@ import shutil
 from pprint import pprint
 from collections import OrderedDict
 
+import six
 import attr
 from attrs_mate import AttrsClass
 from whoosh import index, fields, qparser
@@ -14,12 +15,44 @@ from .constant import ALFRED_FTS
 
 
 @attr.s
+class WFItem(AttrsClass):
+    """
+    Represent a Workflow Item.
+
+    TODO: support custom icon.
+    """
+    title = attr.ib(default="")
+    subtitle = attr.ib(default="")
+    arg = attr.ib(default=None)
+    autocomplete = attr.ib(default=None)
+
+
+ITEM_ATTRS = [a.name for a in WFItem.__attrs_attrs__]
+
+
+@attr.s
 class Setting(AttrsClass):
     """
+    Defines how you want to index your dataset
 
-    :param ngram_columns: list.
-    :param phrase_columns: list.
-    :param keyword_columns: list.
+    :param ngram_columns: list, columns to use ngram index.
+    :param phrase_columns: list. columns to use phrase (full word) index.
+    :param keyword_columns: list. columns to use keyword index.
+
+    :param ngram_minsize: minimal number of character to match., default 2.
+    :param ngram_maxsize: maximum number of character to match., default 2.
+    :param keyword_lowercase: for keyword type field, is the match case sensitive?
+        default True (not sensitive).
+    :param keyword_commas: is the delimiter of keyword is comma or space?
+
+    :param title_field: which field is used as ``WorkflowItem.title``?
+    :param subtitle_field: which field is used as ``WorkflowItem.subtitle``?
+    :param arg_field: which field is used as ``WorkflowItem.arg``?
+    :param autocomplete_field: which field is used as ``WorkflowItem.autocomplete``?
+
+    :param searchable_columns_cache: implementation reserved attribute.
+    :param skip_post_init: implementation reserved attribute.
+
     """
     columns = attr.ib(factory=list)
 
@@ -43,10 +76,22 @@ class Setting(AttrsClass):
 
     def __attrs_post_init__(self):
         if not self.skip_post_init:
-            assert is_subset(self.ngram_columns, self.columns)
-            assert is_subset(self.phrase_columns, self.columns)
-            assert is_subset(self.keyword_columns, self.columns)
-            assert no_overlap(self.ngram_columns, self.phrase_columns, self.keyword_columns)
+            if not is_subset(self.ngram_columns, self.columns):
+                msg = "{} not subset of {}".format(self.ngram_columns, self.columns)
+                raise ValueError(msg)
+
+            if not is_subset(self.phrase_columns, self.columns):
+                msg = "{} not subset of {}".format(self.phrase_columns, self.columns)
+                raise ValueError(msg)
+
+            if not is_subset(self.keyword_columns, self.columns):
+                msg = "{} not subset of {}".format(self.keyword_columns, self.columns)
+                raise ValueError(msg)
+
+            if not no_overlap(self.ngram_columns, self.phrase_columns, self.keyword_columns):
+                msg = ("`ngram_columns`, `phrase_columns` and `keyword_columns` "
+                       "should not have any overlaps!")
+                raise ValueError(msg)
 
     @property
     def searchable_columns(self):
@@ -83,6 +128,31 @@ class Setting(AttrsClass):
         schema = SchemaClass()
         return schema
 
+    def convert_to_item(self, doc):
+        # whoosh 所返回的 doc 中并不一定所有项都有, 有的项可能没有, 我们先为这些
+        # 没有的项赋值 None
+        doc = {c: doc.get(c) for c in self.columns}
+        item_data = dict()
+        for item_field in ITEM_ATTRS:
+            setting_key = "{}_field".format(item_field)
+            setting_value = getattr(self, setting_key)
+
+            if setting_value is None:  # use item_field by default
+                field_value = doc.get(item_field)
+
+            elif setting_value in self.columns:  # on of column
+                field_value = doc.get(setting_value)
+
+            else:  # template
+                field_value = setting_value.format(**doc)
+
+            if field_value is not None:
+                field_value = six.text_type(field_value)
+                if field_value:
+                    item_data[item_field] = field_value
+
+        return WFItem(**item_data)
+
 
 @attr.s
 class DataSet(AttrsClass):
@@ -100,7 +170,7 @@ class DataSet(AttrsClass):
     name = attr.ib(default=None)
     data = attr.ib(default=None)
     setting = attr.ib(
-        convert=Setting.from_dict,
+        converter=Setting.from_dict,
         validator=attr.validators.optional(
             attr.validators.instance_of(Setting),
         ),
@@ -163,9 +233,3 @@ class DataSet(AttrsClass):
         with idx.searcher() as searcher:
             result = [hit.fields() for hit in searcher.search(query, limit=limit)]
         return result
-
-    # @attr.s
-    # class AlfredItemCreator(AttrsClass):
-    #
-    #     context = attr.ib(default=None)
-    #

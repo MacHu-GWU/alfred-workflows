@@ -23,7 +23,7 @@ class TestSetting(object):
             keyword_columns=["genres", ],
         )
 
-        with raises(AssertionError):
+        with raises(ValueError):
             Setting(
                 columns=[1, 2, 3],
                 ngram_columns=[4, ],
@@ -31,13 +31,34 @@ class TestSetting(object):
                 keyword_columns=[6, ],
             )
 
-        with raises(AssertionError):
+        with raises(ValueError):
             Setting(
                 columns=[1, 2, 3],
                 ngram_columns=[1, 2],
                 phrase_columns=[2, 3],
                 keyword_columns=[3, 1],
             )
+
+    def test_convert_to_item(self):
+        doc = dict(
+            movie_id=1, title="The Shawshank Redemption",
+            description="Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            genres="Drama",
+        )
+        setting = Setting(
+            columns=["movie_id", "title", "description", "genres"],
+            subtitle_field="description: {description}",
+        )
+        item = setting.convert_to_item(doc)
+        assert item.title == doc["title"]
+
+        setting = Setting(
+            columns=["movie_id", "title", "description", "genres"],
+            title_field="movie_id",
+            subtitle_field="description: {description}",
+        )
+        item = setting.convert_to_item(doc)
+        assert item.title == "1"
 
 
 class TestMovieDataset(object):

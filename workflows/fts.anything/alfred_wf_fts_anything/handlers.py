@@ -39,39 +39,8 @@ def main(wf, args=None):
         result = dataset.search(query_str)
         if len(result):
             for doc in result:
-                if dataset.setting.title_field is None:
-                    title = ""
-                else:
-                    title = doc.get(dataset.setting.title_field)
-                    if not title:
-                        title = ""
-
-                if dataset.setting.title_field is None:
-                    subtitle = ""
-                else:
-                    subtitle = doc.get(dataset.setting.subtitle_field)
-                    if not subtitle:
-                        subtitle = ""
-
-                if dataset.setting.arg_field is None:
-                    arg = None
-                else:
-                    arg = doc.get(dataset.setting.arg_field)
-
-                if dataset.setting.autocomplete_field is None:
-                    autocomplete = None
-                else:
-                    autocomplete = doc.get(dataset.setting.autocomplete_field)
-                    if not autocomplete:
-                        autocomplete = None
-
-                wf.add_item(
-                    title=title,
-                    subtitle=subtitle,
-                    arg=str(arg),
-                    autocomplete=autocomplete,
-                    valid=True,
-                )
+                item = dataset.setting.convert_to_item(doc)
+                wf.add_item(valid=True, **item.to_dict())
         else:
             wf.add_item(
                 title=MSG_FOUND_NOTHING,
