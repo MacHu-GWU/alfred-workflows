@@ -78,9 +78,9 @@ In this example, I use ``fts movie`` to trigger the search.
 
 .. image:: ./Script-Filter.png
 
-.. image:: ./screen-short-trigger.png
+.. image:: ./screen-shot-trigger.png
 
-.. image:: ./screen-short-search.png
+.. image:: ./screen-shot-search.png
 
 At the first time your started a search, the index is automatically built. The index file is at ``${HOME}/.alfred-fts/{dataset_name}-whoosh_index``.
 
